@@ -43,7 +43,7 @@ try{
         
         <Header/>
         <div className='flex items-center justify-center min-h-screen'>
-        <div className='sm:p-7 w-full max-w-md bg-white rounded shadow'>
+        <div className='p-7 w-full max-w-md bg-white rounded shadow'>
             <form className='flex flex-col '>
                 <label htmlFor="">Email</label>
                 <input
@@ -55,7 +55,7 @@ try{
             />
             <label htmlFor="">Password</label>
                 <input
-                type="text"
+                type="password"
                 placeholder="********"
                 required
                 className="bg-[#eeeeee] border border-gray-300 px-3 py-3 w-full mb-4"
